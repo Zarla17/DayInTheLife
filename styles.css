@@ -3,17 +3,37 @@ html {
 }
 
 body {
-  background-color: antiquewhite;
+  background-color: purple;
   min-height: 100%;
   margin: 0;
+  padding: 20px;
 }
 
-h1 {
-
+section {
+  margin-bottom: 150px;
 }
 
-h2 {
+#pageTitle {
+  font-family: 'Faster One', cursive;
+  font-size: 48pt;
+  color: pink;
+  text-align: center;
+}
 
+.mainImage {
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+
+.listHeader {
+  font-family: 'Berkshire Swash', cursive;
+  color: white;
+}
+
+ul {
+  font-family: 'Indie Flower', cursive;
+  color: yellow;
 }
 
 h3 {
@@ -28,5 +48,5 @@ a {
 
 }
 
-nav {
+nav {color: pink;
 }
